@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sven Collections Suite">
+    <test name="testNG SubElementIterator test">
+        <classes>
+            <class name="de.sven.utils.collections.SubElementIteratorTest" />
+        </classes>
+    </test>
+    <test name="testNG SubElementList test">
+        <classes>
+            <class name="de.sven.utils.collections.SubElementListTest" />
+        </classes>
+    </test>
+</suite>
